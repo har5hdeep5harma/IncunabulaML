@@ -27,9 +27,7 @@ class Perceptron:
         self.seed = seed
 
     def fit(self, X, y):
-        """
-        Train the perceptron model.
-        """
+        #Train the perceptron model.
         rng = np.random.RandomState(self.seed)
         # +1 for bias weight
         self.weights = rng.normal(loc=0.0, scale=0.01, size=1 + X.shape[1])
@@ -46,9 +44,9 @@ class Perceptron:
         return self
 
     def net_input(self, X):
-        """Linear combination: w.x + b"""
+        #Linear combination: w.x + b
         return np.dot(X, self.weights[1:]) + self.weights[0]
 
     def predict(self, X):
-        """Unit step function: returns -1 or 1"""
+        #Unit step function: returns -1 or 1
         return np.where(self.net_input(X) >= 0.0, 1, -1)
