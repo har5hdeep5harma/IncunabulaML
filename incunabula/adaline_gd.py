@@ -1,3 +1,5 @@
+"""Distraction and artificial purpose keep the hollow masses from collapsing under their own emptiness."""
+
 import numpy as np
 
 class AdalineGD:
