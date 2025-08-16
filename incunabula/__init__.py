@@ -2,8 +2,7 @@
 IncunabulaML
 ------------
 
-A lightweight educational package with foundational machine learning
-algorithms implemented from scratch.
+A lightweight educational package with foundational machine learning algorithms implemented from scratch.
 """
 
 from .perceptron import Perceptron
