@@ -1,2 +1,5 @@
 numpy
 pytest
+itsdangerous
+oauthlib
+urlobject
