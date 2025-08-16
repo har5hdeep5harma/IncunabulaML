@@ -1,3 +1,5 @@
+"""The faster the outer world evolves, the more the inner world must evolve - or collapse into madness."""
+
 import numpy as np
 
 class AdalineSGD:
