@@ -1,3 +1,5 @@
+"""If you are scared to ask the question, you will probably be terrified by the answer."""
+
 import numpy as np
 
 class Perceptron:
