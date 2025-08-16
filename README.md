@@ -14,19 +14,36 @@ git clone https://github.com/har5hdeep5harma/IncunabulaML
 cd IncunabulaML
 ``` 
 
-### 2. Install in editable mode:
+### 2. Setting up a Virtual Environment
+
+It is recommended to use a virtual environment before installing dependencies.
+
+On Linux / macOS:
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+On Windows (PowerShell):
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+### 3. Install in editable mode:
 
 ```bash
 pip install -e .
 ```
 This makes the incunabula package available for import.
 
-### 3. Dependencies:
+### 4. Install Dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Running Tests
+### 5. Running Tests
 
 Tests are written with pytest. Run them from the project root:
 
