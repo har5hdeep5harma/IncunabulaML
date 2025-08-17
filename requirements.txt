@@ -3,3 +3,5 @@ pytest
 itsdangerous
 oauthlib
 urlobject
+matplotlib
+scipy
