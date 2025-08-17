@@ -9,7 +9,8 @@ setup(
     url="https://github.com/har5hdeep5harma/IncunabulaML", 
     packages=find_packages(),
     install_requires=[
-        "numpy",
+        "numpy", 
+        "scipy",
     ],
     python_requires=">=3.7",
     classifiers=[
