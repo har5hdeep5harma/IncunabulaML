@@ -1,3 +1,8 @@
+"""In the long run, the coarsest forces often dominate 
+because they are the easiest to spread, 
+easiest to understand, 
+and most contagious to the masses."""
+
 import numpy as np
 
 class LogisticRegressionGD:
