@@ -1,3 +1,6 @@
+"""People often desire things that lead to ruin.
+The most dangerous virus is the one that looks like a vitamin."""
+
 import numpy as np
 from scipy.spatial.distance import pdist, squareform
 from scipy.linalg import eigh
