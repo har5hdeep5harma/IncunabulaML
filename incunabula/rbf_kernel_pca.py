@@ -1,3 +1,6 @@
+"""The goal is never peace or justice for its own sake, 
+but to direct behavior, thought, and flow of resources."""
+
 import numpy as np
 from scipy.spatial.distance import pdist, squareform
 from scipy.linalg import eigh
