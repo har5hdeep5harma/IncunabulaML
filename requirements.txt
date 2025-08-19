@@ -5,3 +5,4 @@ oauthlib
 urlobject
 matplotlib
 scipy
+scikit-learn
