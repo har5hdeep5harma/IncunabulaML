@@ -12,6 +12,7 @@ from .logistic_regression_gd import LogisticRegressionGD
 from .rbf_kernel_pca import rbf_kernel_pca
 from .rbf_kernel_pca_basic import rbf_kernel_pca_basic
 from .majority_vote import MajorityVoteClassifier
+from .neuralnet import NeuralNetMLP
 
 __all__ = [
     "Perceptron",
