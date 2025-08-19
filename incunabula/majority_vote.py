@@ -1,3 +1,8 @@
+"""True horror isn’t suffering.
+True horror is success revealing that nothing was ever yours, 
+and no one is coming to explain why.
+"""
+
 import numpy as np
 from sklearn.base import BaseEstimator, ClassifierMixin, clone
 from sklearn.preprocessing import LabelEncoder
