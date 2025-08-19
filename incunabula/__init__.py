@@ -17,5 +17,7 @@ __all__ = [
     "Perceptron",
     "AdalineGD",
     "AdalineSGD",
-    "LogisticRegressionGD",
+    "rbf_kernel_pca",
+    "rbf_kernel_pca_eig",
+    "MajorityVoteClassifier",
 ]
