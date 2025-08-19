@@ -21,4 +21,5 @@ __all__ = [
     "rbf_kernel_pca",
     "rbf_kernel_pca_eig",
     "MajorityVoteClassifier",
+    "NeuralNetMLP",
 ]
