@@ -55,21 +55,34 @@ pytest
 
 ```bash
 IncunabulaML/
-│
 ├── incunabula/
 │   ├── __init__.py
+│   ├── adaline_gd.py
+│   ├── adaline_sgd.py
+│   ├── logistic_regression_gd.py
+│   ├── majority_vote.py
+│   ├── neuralnet.py
 │   ├── perceptron.py
-│   └── ...
+│   ├── rbf_kernel_pca_basic.py
+│   └── rbf_kernel_pca.py
 │
-├── tests/              
+├── tests/
+│   ├── test_adaline_gd.py
+│   ├── test_adaline_sgd.py
+│   ├── test_logistic_regression_gd.py
+│   ├── test_majority_vote.py
+│   ├── test_neuralnet.py
 │   ├── test_perceptron.py
-│   └── ...
-├── setup.py
+│   ├── test_rbf_kernel_pca_basic.py
+│   └── test_rbf_kernel_pca.py
+│
+├── .gitattributes
+├── LICENSE
+├── pytest.ini
+├── README.md
 ├── requirements.txt
-└── README.md
-
+└── setup.py
 ```
-(Files shown are examples; more algorithms and tests will be added over time.)
 
 ## License
 This project is MIT licensed. See the LICENSE file for details.
